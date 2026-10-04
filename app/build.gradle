@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+android {
+  namespace 'jp.junya.kaisatsu'
+  compileSdk 34
+  defaultConfig { applicationId 'jp.junya.kaisatsu'; minSdk 24; targetSdk 34; versionCode 1; versionName '1.0' }
+  buildTypes { debug { } }
+}
